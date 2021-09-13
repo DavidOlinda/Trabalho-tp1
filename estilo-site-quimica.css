@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body 
+{
+    font-family: Arial, sans-serif;
+    background: #ccc;
+    margin: 0;
+}
+
+.glorious 
+{
+    background-image: url(https://cdn.discordapp.com/attachments/856586542104313866/880875792853250078/46130175_303_1.jpg);
+    height: 700px;
+    background-position: right center;
+    background-size: cover;
+    border-top: 0.1px solid transparent;
+}
+.text 
+{
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.text h1 
+{
+    text-transform: uppercase;
+    font-size: 50px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.introducao {
+    text-align: justify;
+    color: black;
+}
+
+main 
+{
+    width: 80%;
+    margin: auto;                                                                       
+    background-color:white ;
+    padding: 15px;
+    margin-top: 16px;
+    border: 2px solid grey;
+}
+.glorious nav ul li 
+{
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+    margin: 4px;
+}
+.imagens 
+{
+    display: inline-block;
+    width: 33%;
+    border: solid 2px #ccc;
+
+}
+
+@keyframes guerras{
+    0%{
+        padding: 25px;
+        background: #ccc;
+      }
+      50%{
+        padding: 50px;
+        background: #ccc;
+      }
+      100%{
+        padding: 25px;
+        background: #ccc;
+      }
+}
+
+.glorious nav ul 
+{
+    text-align:right;
+    margin-right: 35px;
+    margin-top: 25px;
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.glorious nav a 
+{
+    background: rgba(0 , 0, 0 , 0.0);
+    display: block;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-family: Arial, Helvetica, sans-serif
+}
+.glorious nav a:hover 
+{  
+    background: rgba(0 , 0, 0 , 0.3);
+}
+.content-section 
+{   
+    color: black;
+}
+
+.pezin 
+{
+    background-color: grey;
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 15px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px black;
+}
+
+#texto_segunda_guerra
+{
+    text-align: justify;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
